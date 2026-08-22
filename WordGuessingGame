@@ -25,7 +25,7 @@ while turns > 0:
         print("\nCongratulations! You guessed the word:", word)
         break
 
-    guess = input("\nGuess a character: ")
+    guess = input("\nGuess a programming language: ")
     guesses += guess
 
     if guess not in word:
